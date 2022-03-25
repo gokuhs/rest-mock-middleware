@@ -1,0 +1,37 @@
+{
+  "name": "rest-mock-middleware",
+  "version": "0.0.3",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GFI-Informatique/rest-mock-middleware.git"
+  },
+  "description": "REST mock middleware for express",
+  "author": "José Javier Martínez Domene <jjmartinez@gfi.es>",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "jsonpath": "1.0.0",
+    "node-json-equal": "0.1.0"
+  },
+  "devDependencies": {
+    "express": "^4.16.3",
+    "chai": "*",
+    "chai-http": "*",
+    "mocha": "*",
+    "mocha-lcov-reporter": "*",
+    "nyc": "*",
+    "sinon": "*"
+  },
+  "scripts": {
+    "test": "mocha --exit test/**/*.spec.js",
+    "cover": "nyc --reporter=html mocha test/**/*.spec.js --exit"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "license": "MIT",
+  "_resolved": "",
+  "_integrity": "sha512-RBYbfYiM7zs6Jaol14FP/CRUxI36ITUfP3cUXQ5aX3xMSBuMlwv1lXtfELTOpWOYf4hMLUYWqw8HjjrMnmLv/g==",
+  "_from": "rest-mock-middleware@https://github.com/GFI-Informatique/rest-mock-middleware/archive/0.3.0.tar.gz"
+}
